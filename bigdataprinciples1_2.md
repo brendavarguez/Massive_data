@@ -3,7 +3,6 @@
 
 ---
 
-<p>&lt;![endif]–&gt;</p>
 <h1 id="chapter-1">Chapter 1</h1>
 <h3 id="who-were-the-pioneers-in-creating-big-data-systems">Who were the pioneers in creating big data systems?</h3>
 <p>Google &amp; Amazon</p>
