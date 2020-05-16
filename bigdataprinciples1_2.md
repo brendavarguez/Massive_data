@@ -88,7 +88,7 @@
 <h3 id="when-the-author-mentions-that-data-is-immutable-what-does-it-means">2.- When the author mentions that data is immutable, what does it means?</h3>
 <p>It means that data cannot be changed or deleted but it is possible to add more data.</p>
 <h3 id="mention-two-advantages-of-immutable-data.">3.- Mention two advantages of immutable data.</h3>
-<p>The most important advantages are Human-fault tolerance and simplicity</p>
+<p>The most important advantages are Human-fault tolerance and simplicity.</p>
 <h3 id="what-is-the-fact-based-model">4.- What is the fact-based model?</h3>
 <p>In the fact-based model, data is deconstructed into fundamental units called <em>facts</em> and sores raw data as atomic facts. The fact-based model keeps the facts immutable and eternally true by using timestamps and ensures each fact is identifiable so that query processing can identify duplicates.</p>
 <h3 id="mention-some-advantages-of-the-fact-based-model.">5.- Mention some advantages of the fact-based model.</h3>
