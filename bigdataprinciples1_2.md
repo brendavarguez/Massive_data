@@ -6,7 +6,7 @@
 <h1 id="chapter-1">Chapter 1</h1>
 <h3 id="who-were-the-pioneers-in-creating-big-data-systems">1. Who were the pioneers in creating big data systems?</h3>
 <p>Google &amp; Amazon</p>
-<h3 id="some-examples-of-big-data-systems">2.- some examples of big data systems</h3>
+<h3 id="mention-some-examples-of-big-data-systems">2.- Mention some examples of big data systems</h3>
 <ul>
 <li>
 <p>Google: distributed filesystems, the MapReduce computation framework, and distributed locking service</p>
