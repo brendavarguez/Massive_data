@@ -42,20 +42,6 @@
 <p>Distributed filesystems spread their storage across a cluster of computers, and in that way we can have fault tolerance when a machine goes down. In other words, if you lose one machine, all your files and data will still be accessible.</p>
 <p>The operations you can do with a distributed filesystem are often more limited than you can do with a regular filesystem.</p>
 <p>Oftentimes having small files can be inefficient, so you must make sure you keep your file sizes relatively large to make use of the distributed filesystem properly.</p>
-<h5 id="what-are-some-requirements-of-master-dataset-storage">4.- What are some requirements of master dataset storage</h5>
-<ul>
-<li>Write:
-<ul>
-<li>Efficient appends of new data.</li>
-<li>Scalable storage</li>
-</ul>
-</li>
-<li>Read: Support for parallel processing</li>
-<li>Both:
-<ul>
-<li>Tuneable storage and processing cost</li>
-<li>Enforceable immutability</li>
-</ul>
-</li>
-</ul>
+<h5 id="why-scalable-storage-is-one-of-the-requirements-of-master-dataset-storage">4.- Why scalable storage is one of the requirements of master dataset storage?</h5>
+<p>This is because the batch layer stores the complete dataset, potentially terabytes or peta  bytes of data, therefore, it must be easy to scale the storage as our dataset grows.</p>
 
