@@ -28,7 +28,7 @@
 <h5 id="why-enforceable-schemas-are-consider-to-be-good-when-talking-about-finding-data">7.- Why enforceable schemas are consider to be good when talking about finding data?</h5>
 <p>Because they allows to find the problem, if it’s the case, when writing the data as well as it provides full context of how and why the data become corrupted.</p>
 <h5 id="why-only-optional-fields-can-be-added-to-existing-structs">8.- Why only optional fields can be added to existing structs?</h5>
-<p>It is only possible to add optional fields because if you try to add required fields because, existing data won’t have those fields and thus won’t be deserializable.</p>
+<p>It is only possible to add optional fields because if you try to add required fields, existing data won’t have those fields and thus won’t be deserializable.</p>
 <h5 id="why-fields-may-be-renamed-when-you-want-to-change-the-schema-but-still-be-backward-compatible-with-existing-data">9.- Why fields may be renamed when you want to change the schema but still be backward compatible with existing data?</h5>
 <p>This is because the serialized form of an object uses the field IDs, not the names, to identify fields.</p>
 <h5 id="why-when-a-field-is-removed-you-cannot-reuse-that-field-id">10.- Why when a field is removed you cannot reuse that field ID?</h5>
