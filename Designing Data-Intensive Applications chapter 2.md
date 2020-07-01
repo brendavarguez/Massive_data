@@ -3,6 +3,7 @@
 
 ---
 
+<h2 id="designing-data-intensive-applications-chapter-2">Designing Data-Intensive Applications chapter 2</h2>
 <h4 id="before-sql-which-were-the-other-popular-alternatives-for-data-storage">1.- Before SQL, which were the other popular alternatives for data storage?</h4>
 <p>Network model and hierarchical model.</p>
 <h4 id="mention-some-of-the-firsts-use-cases-of-relational-databases">2.- Mention some of the firsts use cases of relational databases:</h4>
