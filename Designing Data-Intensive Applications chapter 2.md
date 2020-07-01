@@ -23,7 +23,7 @@
 <h4 id="what-is-an-advantage-of-assigning-ids-to-each-table-in-a-database">7.- What is an advantage of assigning IDs to each table in a database?</h4>
 <p>There are some data that is important to humans and, at the same time, may be subject to change however this is not the case for IDs. People doesn’t care that much about IDs and for that reason it is not likely to be changed.</p>
 <h4 id="how-document-oriented-database-manage-to-handle-one-to-many--relationships">8.- How document oriented database manage to handle <em>one-to-many</em>  relationships?</h4>
-<p>By nesting records instead of saving each one of them in different tables. As you may see in the example above, the field tags and ratings are an example of this. This is how a document is Mongodb, a document oriented database, looks like.</p>
+<p>By nesting records instead of saving each one of them in different tables. As you may see in the example above, the field tags and ratings are an example of this. This is how a document in Mongodb, a document oriented database, looks like.</p>
 <pre><code>{
     "name": "keyboard",
     "decription": "logitech keyboard",
