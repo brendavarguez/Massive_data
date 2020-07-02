@@ -41,10 +41,10 @@
 <p>A feature of a topic is that it only provides one-way communication. Nevertheless, the good thing about consumers is that they are able to publish messages to another topic or to a reply queue that is consumed by the sender of the original message. However, if consumer republishes messages to another topic, then you may need to be careful to preserve unknown fields.</p>
 <h4 id="give-an-example-of-how-message-brokers-are-used.">8.- Give an example of how message brokers are used.</h4>
 <p>Let’s talk about a fleet of trucks.</p>
-<p><a href="data/fleet.png"></a></p>
+<p><img src="data/fleet.png" alt=""></p>
 <p>Imagine we have a fleet of trucks and each truck reports its GPS position a topic named trucks_gps that contains the position of all trucks (<strong>one</strong> topic for all my trucks).</p>
 <p>Each truck will send a message to this topic every 20 seconds and each message will contain truck ID and the truck position (latitude and longitude).</p>
-<p><a href="data/fleet.png"></a></p>
+<p><img src="data/fleet.png" alt=""></p>
 <p>Why do we need a broker message for this process? Maybe I want to have consumers of my data such as:</p>
 <ul>
 <li>Location dashboard for my employees so they can look at the trucking data.</li>
