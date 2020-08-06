@@ -100,7 +100,7 @@ To begin with, we wanted to determine the amount of people that are indeed SARS-
 
 Here's the result. 
 
-![](/nuevas/pete.png)
+![](images/pete.png)
 
 As we can see, even though the amount of negative cases is bigger than the positive ones, it is quite a preoccupation that the amount of people with the virus cases is getting close to fifty percent of our entire registered population.
 
@@ -108,7 +108,7 @@ As we can see, even though the amount of negative cases is bigger than the posit
 
 Another thing that was from our concern was to know the sectors that are more likely to provide the data from a positive case; here is the distribution we found.
 
-![](/nuevas/pete1.png)
+![](images/pete1.png)
 
 The result we found was shocking for us. Considering our analyzed population to be considerably big, it is quite interesting to find that we could basically name two sectors as responsibles for testing all positive cases. It is true the IMSS is the biggest hospital institute in Mexico; nonetheless, the SSA shows to be more important in this case. Meanwhile, the impact in positive cases testing for the remaining institutes is almost negligible compared to both of them. 
 
@@ -117,28 +117,28 @@ Another thing of our interest was to find the proportion there is between infect
 
 Here is what we found
 
-![](/nuevas/pete2_2.png)
+![](images/pete2_2.png)
 
 Even though we are talking about thousands of people of difference, the gap between sex is not big enough to be really the center of attention for a specific analysis. Unfortunately for us, everyone seems to be equally susceptible to get the virus. 
 
 
 Continuing with the Analysis, we found that there are a lot of different nationalities in the database, so it might be important to know the top ten nationalities with more patients that are being treated in Mexico. This measurement could get us some insight into the impact of tourism in our country and how that could potentially increase the risk in other nations.
 
-![](/nuevas/pete3n.png)
+![](images/ppp.jpeg)
 
 
 Once we saw that image, the decisions took by several governments of closing airports makes total sense. It is very dangerous for both countries to have infected people coming home or going somewhere else as tourists. 
 
 As it was written in the beginning, the probability you have of being infected varies according to your geological position, this is why we decided to see the states where we can find a big concentration of the cases so we can have an objective idea of the most dangerous places in Mexico; in that way, we might consider to take a look into the distribution of material and resources. 
 
-![](/nuevas/pete4_3.png)
+![](images/pete4_3.png)
 
 As expected, the most populated states are the ones with a higher concentration of the national cases; nevertheless, it is important to point out that both Mexico city and the State of Mexico (México) are relatively small compared to other states of the republic, so both cities should, according to the data, center of attention because of their territory and population. 
 
 Now, with the previous graph, we can infer the places where the hospital's capacity might be to its limit; nonetheless, that does not necessarily mean that the hospital attention is bad for the patients. This got us intrigued and we wanted to find a type of measure within the dataset that might provide us with some answer. What we finally did was to take into consideration all that infected population that unfortunately died, then, we measure the time it took them to be in the hospital until their las day. 
 
 This are our results
-![](/nuevas/pete10.png)
+![](images/pete10.png)
 
 That could be a really interesting topic to dig about, why the patients that are going to die got to live three more days if they live in Queretaro than if they were being treated in Morelos? is it related to the doctors? to the patients? to the resources? Regardless of the answer is something that must be a concern for all of us.  
 
@@ -146,27 +146,27 @@ Now, focusing on the population, we wanted to find for factors or conditions tha
 
 First of all, we wanted to see for the patients' previous conditions while being diagnosed with COVID.
 
-![](/nuevas/Pete12n.png)
+![](images/Pete12.png)
 
 It is not a secret to tell that Mexico's population's health is not the best, but is something really worrying about the fact that not even half of the patients were free of, at least, one of those diseases. Is it because they are more vulnerable to get infected? Is it because of Mexico's population? Definitely is worth the shot to investigate. Now that we have seen that previous conditions are a common denominator in Mexican COVID patients, we wanted to determine the risk of having any of those health issues. 
 What we did was to divide our population into those ones that have, at least, one of those ailments in population segments; then, we divided each population segment and calculate the percentage of people that died because of that ailment. With that, we calculated the probability you have to die in case you have any of those previous conditions. 
 
 
 
-![](/nuevas/pete11n.png)
+![](images/pete11n.png)
 
 
 This is one of the most important insights we got from the dataset, it is extremely important to pay attention to previous conditions because there are cases like pneumonia or having a cronical kidney disease that increase your probability to die considerably, besides that, we have just seen that having these conditions are more common than we would like. 
 
 Finally, we have seen in other parts of the world that age is something to take into consideration while detecting a potential chronic patient, hence, we measured the age distribution in our country.
 
-![](/nuevas/pete8n.png)
+![](images/pete8.png)
 
 As expected by being a natural variable, it proved to have a normal behaviour (this was mathematically proved with a Kolmogorov-Smirnov and a Shapiro-Wilks test; both of them with a p<0.05). We could easily say that our population has a huge range, but the mean lies on people that are considered to be middle aged.Now, does the age matter in Mexico to became a chronic patient? 
 
 In order to answer the previous question (and once we knew our variable was normally behaved), we noticed that being intubated is something that only apply for those patients that are extremely bad; hence, we tested (with a two-tailed t-student test) the distribution of the age of the people that are not intubated against the distribution of those ones that are. The results were to tell us if the age is statistically a factor that forced people to be intubated. 
 
-![](/nuevas/pete9n.png)
+![](images/pete9.png)
 
 Our test yielded (with a p<0.05) that older people are indeed more susceptible to get intubated. This is, age is in fact an important factor to consider for patients.
 
