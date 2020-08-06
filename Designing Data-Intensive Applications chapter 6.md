@@ -3,6 +3,7 @@
 
 ---
 
+<h2 id="designing-data-intensive-applications-chapter-6">Designing Data-Intensive Applications chapter 6</h2>
 <h3 id="what-is-partitioning">1.-   What is partitioning?</h3>
 <p>Partitions are defined in such a way that each piece of data (each record, row, or document) belongs to exactly one partition. There are various ways of achieving this. In effect, each partition is a small database of its own, although the database may support operations that touch multiple partitions at the same time.</p>
 <h3 id="what-are-the-two-ways-to-apply-a-partition">2.- What are the two ways to apply a partition?</h3>
