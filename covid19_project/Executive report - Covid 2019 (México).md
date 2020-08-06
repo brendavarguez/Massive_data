@@ -30,7 +30,7 @@ The aim of this project is to take a step forward in order to solve those questi
 ## Pipeline <a name="pipeline"></a>
 As a closure for the Big Data Management course, we are to develop a project involving topics that the management of data requires where we, as a team, could get something valuable.
 
-![](/covidd/pipeline(2).jpg)
+![](/images/pipeline.jpg)
 
 
 ## Initial ideas, limitations the team had and changes that were made <a name="initial"></a>
